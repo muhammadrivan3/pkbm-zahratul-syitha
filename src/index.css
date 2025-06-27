@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* styles/global.css */
+.theme-protanopia {
+  @apply bg-[#f5f5dc] text-black;
+}
+
+.theme-highcontrast {
+  @apply bg-black text-white;
+}
+
+.theme-bigtext {
+  @apply text-xl;
+}
+
+/* New accessibility classes for color blindness modes */
+.colorblind-normal {
+  /* No special filter */
+}
+
+.colorblind-protanopia {
+  filter: brightness(0.9) saturate(0.8) contrast(1.1) sepia(0.2);
+  /* Approximate protanopia simulation */
+  /* Alternatively use matrix filter if supported */
+  /* filter: url('#protanopia'); */
+}
+
+.colorblind-deuteranopia {
+  filter: brightness(0.9) saturate(0.7) contrast(1.1) sepia(0.1);
+  /* Approximate deuteranopia simulation */
+  /* filter: url('#deuteranopia'); */
+}
+
+.colorblind-tritanopia {
+  filter: brightness(0.9) saturate(0.6) contrast(1.1) sepia(0.1);
+  /* Approximate tritanopia simulation */
+  /* filter: url('#tritanopia'); */
+}
+
+/* Font size classes */
+.font-normal {
+  font-size: 1rem;
+}
+
+.font-big {
+  font-size: 1.25rem;
+}
+
+.font-bigger {
+  font-size: 1.5rem;
+}
+
+/* SVG filters for color blindness simulation */
+/* svg {
+  position: absolute;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  user-select: none;
+} */
+
+.font-title {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-body {
+  font-family: 'Lora', serif;
+}
+
+.font-quote {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+}

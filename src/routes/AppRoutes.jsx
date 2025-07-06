@@ -10,11 +10,12 @@ import Contact from "../pages/Contact";
 import Service from "../pages/Service";
 import ServiceDetail from "../pages/ServiceDetail";
 import PPDB from "../pages/PPDB";
+import NotFound from "../pages/NotFound";
 
 const AppRoutes = () => {
   return (
     <BrowserRouter>
-      <div className="relative bg-gray-50">
+      <div className="relative bg-gray-50 max-w-screen mx-auto overflow-x-hidden font-body">
         <Header />
         <AccessibilityToggle />
         <Routes>
@@ -26,6 +27,7 @@ const AppRoutes = () => {
           <Route path="/ppdb" element={<PPDB />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>

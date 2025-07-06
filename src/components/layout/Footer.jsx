@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0e1a2b] text-white py-16 mt-24 relative overflow-hidden">
+    <footer className="bg-[#0e1a2b] text-white py-16 relative overflow-hidden">
       {/* Background Wave (optional aesthetic) */}
       <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]"></div>
 

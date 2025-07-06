@@ -1,5 +1,87 @@
 @import "tailwindcss";
+:root {
+  --font-title: "Playfair Display", serif;
+  --font-body: "Lora", serif;
+  --font-quote: "EB Garamond", serif;
+  --font-ui: "Inter", sans-serif;
 
+  --text-title: #0f172a; /* slate-900 → tajam, sangat jelas */
+  --text-title-inverse: #d5e2f0;
+  --text-body: #1e293b; /* slate-800 → untuk isi konten */
+  --text-subtitle: #334155; /* slate-700 → untuk subjudul */
+  --text-muted: #475569; /* slate-600 → teks pendukung, tetap terlihat */
+  --text-accent: #1d4ed8; /* blue-700 → biru lembut tapi tegas */
+  --text-link: #2563eb; /* blue-600 → biru solid tapi nyaman */
+   --text-link-hover: #1e40af; /* blue-800 → hover warna biru lebih kuat */
+  /* === Background Colors === */
+  --bg-base: #f8fafc; /* slate-50 → untuk keseluruhan background putih lembut */
+  --bg-section: #f1f5f9; /* slate-100 → untuk card/section alternate */
+  --bg-subtle: #e2e8f0; /* slate-200 → misal border, hover ringan */
+  --bg-muted: #cbd5e1; /* slate-300 → elemen non-primer */
+  --bg-accent: #e0edff; /* custom soft blue background (untuk highlight / card ringan) */
+  --bg-accent-strong: #dbeafe; /* blue-100 → lebih kontras untuk hover / alert ringan */
+}
+/* === Custom Classes via Tailwind Layer === */
+@layer utilities {
+  .font-title {
+    font-family: var(--font-title);
+  }
+  .font-body {
+    font-family: var(--font-body);
+  }
+  .font-quote {
+    font-family: var(--font-quote);
+    font-style: italic;
+  }
+  .font-ui {
+    font-family: var(--font-ui);
+  }
+  .text-title {
+    color: var(--text-title);
+  }
+  .text-title-inverse {
+    color: var(--text-title-inverse);
+  }
+  .text-body {
+    color: var(--text-body);
+  }
+  .text-subtitle {
+    color: var(--text-subtitle);
+  }
+  .text-muted {
+    color: var(--text-muted);
+  }
+  .text-accent {
+    color: var(--text-accent);
+  }
+  .text-link {
+    color: var(--text-link);
+  }
+  .text-link-hover:hover {
+    color: var(--text-link-hover);
+  }
+  .hover\:text-link-hover:hover {
+  color: var(--text-link-hover);
+}
+  .bg-base {
+    background-color: var(--bg-base);
+  }
+  .bg-section {
+    background-color: var(--bg-section);
+  }
+  .bg-subtle {
+    background-color: var(--bg-subtle);
+  }
+  .bg-muted {
+    background-color: var(--bg-muted);
+  }
+  .bg-accent {
+    background-color: var(--bg-accent);
+  }
+  .bg-accent-strong {
+    background-color: var(--bg-accent-strong);
+  }
+}
 /* styles/global.css */
 .theme-protanopia {
   @apply bg-[#f5f5dc] text-black;
@@ -35,39 +117,4 @@
   filter: brightness(0.9) saturate(0.6) contrast(1.1) sepia(0.1);
   /* Approximate tritanopia simulation */
   /* filter: url('#tritanopia'); */
-}
-
-/* Font size classes */
-.font-normal {
-  font-size: 1rem;
-}
-
-.font-big {
-  font-size: 1.25rem;
-}
-
-.font-bigger {
-  font-size: 1.5rem;
-}
-
-/* SVG filters for color blindness simulation */
-/* svg {
-  position: absolute;
-  width: 0;
-  height: 0;
-  pointer-events: none;
-  user-select: none;
-} */
-
-.font-title {
-  font-family: 'Playfair Display', serif;
-}
-
-.font-body {
-  font-family: 'Lora', serif;
-}
-
-.font-quote {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
 }

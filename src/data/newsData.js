@@ -9,7 +9,7 @@ Acara ini diikuti oleh lebih dari 100 siswa dari berbagai jenjang pendidikan.
 Dalam sambutannya, Kepala PKBM menyampaikan rasa bangga terhadap capaian siswa serta berharap agar ilmu yang diperoleh dapat diaplikasikan di tengah masyarakat.
 
 Wisuda ini juga dihadiri oleh perwakilan Dinas Pendidikan dan tokoh masyarakat setempat yang memberikan motivasi dan apresiasi kepada seluruh peserta didik.`,
-    image: "http://localhost:5173/img/banner3.jpg",
+    image: "/img/banner1.jpg",
     date: "12 Juni 2025",
     category: "Pendidikan",
     author: "Admin PKBM",
@@ -24,7 +24,7 @@ Pelatihan ini meliputi keterampilan kuliner, menjahit, dan digital marketing.
 
 Instruktur dihadirkan dari kalangan profesional yang telah berpengalaman di bidang UMKM. 
 Peserta terlihat antusias dalam mengikuti kegiatan ini, yang diharapkan dapat menjadi bekal dalam membangun usaha mandiri ke depan.`,
-    image: "http://localhost:5173/img/banner3.jpg",
+    image: "/img/banner2.jpg",
     date: "10 Juni 2025",
     category: "Pelatihan",
     author: "Tim Redaksi",
@@ -39,7 +39,7 @@ Dalam wawancara, ia menyampaikan bahwa ilmu yang diperoleh selama belajar di PKB
 
 Usaha yang dirintisnya kini mempekerjakan 5 warga sekitar dan memproduksi seragam sekolah serta pakaian muslim. 
 Hal ini menjadi bukti nyata bahwa pendidikan non-formal dapat memberikan dampak positif dalam kehidupan.`,
-    image: "http://localhost:5173/img/banner3.jpg",
+    image: "/img/documentasi_1.webp",
     date: "08 Juni 2025",
     category: "Prestasi",
     author: "Kontributor PKBM",
@@ -53,7 +53,7 @@ Hal ini menjadi bukti nyata bahwa pendidikan non-formal dapat memberikan dampak 
 Melalui kerja sama ini, beberapa program baru akan diluncurkan, termasuk pelatihan keterampilan perempuan dan pendidikan anak jalanan.
 
 Kerja sama ini disambut positif oleh masyarakat dan diharapkan dapat meningkatkan angka partisipasi belajar.`,
-    image: "http://localhost:5173/img/banner3.jpg",
+    image: "/img/banner3.jpg",
     date: "05 Juni 2025",
     category: "Kemitraan",
     author: "Admin PKBM",

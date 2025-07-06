@@ -62,7 +62,9 @@ const LearningFlow = () => {
 
       <div className="mt-12">
         <a
-          href="/daftar"
+          href="https://pend-pkbm-zs.vercel.app/ppdb"
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-ui inline-block bg-gradient-to-r from-blue-600 to-blue-500 text-white px-8 py-3 rounded-full font-semibold shadow hover:opacity-90 transition"
         >
           Daftar Sekarang

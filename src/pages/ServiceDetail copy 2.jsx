@@ -19,7 +19,7 @@ const dummyDetail = {
   tataCara: `1. Isi formulir pendaftaran online atau ambil langsung di kantor PKBM.\n
 2. Sertakan fotokopi ijazah terakhir & KTP/KK.\n
 3. Ikuti sesi wawancara atau orientasi belajar.`,
-  image: "http://localhost:5173/img/banner3.jpg",
+  image: "/img/banner3.jpg",
 };
 
 const ServiceDetail = () => {

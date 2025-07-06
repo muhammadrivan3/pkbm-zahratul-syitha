@@ -47,7 +47,7 @@ const PPDB = () => {
         {/* Call to Action */}
         <div className="text-center mt-10">
           <a
-            href="https://ppdb.zahratulsyitha.id"
+            href="https://pend-pkbm-zs.vercel.app/ppdb"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg text-sm font-semibold hover:bg-blue-700 transition"

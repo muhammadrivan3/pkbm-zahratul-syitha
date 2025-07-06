@@ -53,7 +53,7 @@ const BeritaUtama = () => {
           className="relative bg-gray-0 overflow-hidden"
         >
           <motion.img
-            src={"http://localhost:5173/img/banner1.jpg"}
+            src={"/img/banner1.jpg"}
             alt="Berita Utama"
             className="w-full h-full object-cover"
             whileHover={{ scale: 1.2 }}

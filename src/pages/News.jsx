@@ -10,7 +10,7 @@ const newsData = [
     title: "PKBM Gelar Wisuda Tahunan",
     excerpt:
       "Lebih dari 100 siswa mengikuti prosesi wisuda yang berlangsung khidmat...",
-    image: "http://localhost:5173/img/banner1.jpg",
+    image: "/img/banner1.jpg",
     date: "12 Juni 2025",
     category: "Pendidikan",
   },
@@ -19,7 +19,7 @@ const newsData = [
     title: "Pelatihan Kemandirian Santri",
     excerpt:
       "Meningkatkan keterampilan praktis peserta didik dalam dunia usaha...",
-    image: "http://localhost:5173/img/banner2.jpg",
+    image: "/img/banner2.jpg",
     date: "10 Juni 2025",
     category: "Pelatihan",
   },
@@ -27,7 +27,7 @@ const newsData = [
     id: 3,
     title: "Alumni PKBM Buka Usaha Mandiri",
     excerpt: "Mantan peserta kini sukses membuka usaha konveksi menengah...",
-    image: "http://localhost:5173/img/banner3.jpg",
+    image: "/img/documentasi_1.webp",
     date: "08 Juni 2025",
     category: "Prestasi",
   },

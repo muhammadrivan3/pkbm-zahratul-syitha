@@ -27,7 +27,7 @@ const dummyDetail = {
   tipe: "Kelas Reguler",
   topik: "Kesetaraan Pendidikan",
   tataCara: `1. Isi formulir pendaftaran online atau ambil langsung di kantor PKBM.\n2. Sertakan fotokopi ijazah terakhir & KTP/KK.\n3. Ikuti sesi wawancara atau orientasi belajar.`,
-  image: "http://localhost:5173/img/banner3.jpg",
+  image: "/img/documentasi_3.webp",
 };
 
 const InfoItem = ({ icon, label, value, badgeColor }) => (
@@ -74,12 +74,21 @@ const ServiceDetail = () => {
                 Dapatkan informasi dan perkembangan terbaru dari PKBM Zahratul Syitha.
               </p>
               <div className="mt-6">
-                <button
-                  className="bg-yellow-400 hover:bg-yellow-500 text-lg px-8 py-3 rounded-md font-semibold text-gray-900 shadow-md transition transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-yellow-300 flex items-center space-x-2"
-                  aria-label="Daftar program"
+                <a
+                  href="https://pend-pkbm-zs.vercel.app/ppdb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+      inline-flex items-center justify-center
+      w-44 px-6 py-3 rounded-md text-lg font-semibold
+      text-gray-900 bg-yellow-400 hover:bg-yellow-500
+      shadow-lg transition-transform transform hover:scale-105
+      focus:outline-none focus:ring-4 focus:ring-yellow-300
+    "
+    aria-label="Daftar program"
                 >
                   <span>DAFTAR</span>
-                </button>
+                </a>
               </div>
             </div>
 

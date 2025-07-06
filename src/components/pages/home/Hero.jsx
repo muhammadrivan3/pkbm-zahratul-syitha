@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const images = [
-  '/img/documentasi_1.jpg',
-  '/img/documentasi_2.jpeg',
-  '/img/documentasi_3.jpg',
+  '/img/documentasi_1.webp',
+  '/img/documentasi_2.webp',
+  '/img/documentasi_3.webp',
 ];
 
 const Hero = () => {
